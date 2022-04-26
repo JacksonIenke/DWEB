@@ -56,3 +56,13 @@ div.pseudo{
     background-color: darkred;
     font-weight: bold;
 }
+.pseudo > span{
+    display: none;
+}
+.pseudo:hover > span{
+    display: block;
+}
+h3::selection {
+    color: blue;
+    background-color: crimson;
+}
